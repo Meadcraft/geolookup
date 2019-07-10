@@ -80,4 +80,12 @@ class GeoCoordinates {
         return $this;
     }
     
+    /**
+     * Get the result set
+     *
+     * @return object
+     */
+    public function getResult() {
+        return $this->result;
+    }
 }
